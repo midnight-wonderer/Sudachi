@@ -105,6 +105,8 @@ $ java -jar sudachi-XX.jar [-r conf] [-s json] [-m mode] [-a] [-d] [-f] [-o outp
     $ echo 東京都へ行く | java -jar target/sudachi.jar -t
     東京都 へ 行く
 
+Check [the simple formatter](./src/main/java/com/worksap/nlp/sudachi/SimpleMorphemeFormatter.java) for the output format.
+
 ## How to use the API
 
 You can find details in the Javadoc.
@@ -437,6 +439,7 @@ $ java -jar sudachi-XX.jar [-r conf] [-s json] [-m mode] [-a] [-d] [-f] [-o outp
     $ echo 東京都へ行く | java -jar target/sudachi.jar -t
     東京都 へ 行く
 
+出力フォーマットについては、[シンプルフォーマッタ](./src/main/java/com/worksap/nlp/sudachi/SimpleMorphemeFormatter.java)を確認してください。
 
 ## ライブラリの利用
 
